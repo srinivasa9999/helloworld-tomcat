@@ -13,14 +13,14 @@ pipeline {
                 stage('Build') {
             steps {
                 script{
-                build("Ashwath")
+                build()
                 }
             }
         }
                 stage('Deploy') {
             steps {
                 script{
-                build("Ashwath")
+                deploy()
                 }
             }
         }
