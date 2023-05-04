@@ -10,7 +10,7 @@ pipeline {
                 }
             }
         }
-         tage('Deploy') {
+         stage('Deploy') {
             steps {
                 script{
                 deploy()
